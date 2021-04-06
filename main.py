@@ -14,16 +14,16 @@ print(greet('Jan', "Whatup, <name> whatup?!"))
 def force(mass, body='earth'):
     d = {
         'sun': 274,
-        'jupiter': 24.9,
-        'neptune': 11.2, 
-        'saturn': 10.4, 
-        'earth': 9.8,
-        'uranus': 8.9, 
-        'venus': 8.9, 
-        'mars': 3.7,
+        'jupiter': 24.92,
+        'neptune': 11.15, 
+        'saturn': 10.44, 
+        'earth': 9.798,
+        'uranus': 8.87, 
+        'venus': 8.87, 
+        'mars': 3.71,
         'mercury': 3.7,
-        'moon': 1.6, 
-        'pluto': 0.6
+        'moon': 1.62, 
+        'pluto': 0.58
     }
     f = mass * round(d[body], 1)
     return f
